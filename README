@@ -1,5 +1,4 @@
+To make it simple we can execute :
 ```
-bash create_the_root_pair.bash
-bash create_the_intermediate_pair.bash
-bash sign_server_and_client_certificates.bash etcd1 192.168.60.11 192.168.60.1
+make cert-openssl
 ```
